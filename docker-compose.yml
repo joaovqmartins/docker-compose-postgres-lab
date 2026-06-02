@@ -1,0 +1,8 @@
+# VAMOS RODAR UM BANDO DE DADOS VIA DOCKER
+# NAO PRECISAMOS DELE INSTALANDO NO PC
+# TODOS OS DEVS USAM A MESMA VERSAO DO BANCO
+version:  '3.8'
+services:
+  postgres:
+    image: postgres:latest
+    container_name: treinodockercontainer
