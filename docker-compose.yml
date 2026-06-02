@@ -1,6 +1,4 @@
-# VAMOS RODAR UM BANDO DE DADOS VIA DOCKER
-# NAO PRECISAMOS DELE INSTALANDO NO PC
-# TODOS OS DEVS USAM A MESMA VERSAO DO BANCO
+
 version:  '3.8'
 services:
   postgres:
@@ -8,8 +6,8 @@ services:
     container_name: treinodockercontainer
     environment:
       POSTGRES_DB: treinodocker
-      POSTGRES_USER: psotgress
-      POSTGRES_PASSWORD: postgress
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
     ports:
       - "5431:5432"
     restart: always
