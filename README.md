@@ -182,17 +182,15 @@ postgres
 
 Resultado da execução do Docker Compose com o banco PostgreSQL disponível na porta 5431:
 
-```markdown
 ![Docker Compose em Execução](docs/docker-up.png)
-```
+
 
 ### Conexão com PostgreSQL via DBeaver
 
 Resultado  da conexão realizada:
 
-```markdown
 ![Conexão PostgreSQL](docs/dbeaver-connection.png)
-```
+
 
 ## Aprendizados
 
