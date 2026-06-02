@@ -6,3 +6,10 @@ services:
   postgres:
     image: postgres:latest
     container_name: treinodockercontainer
+    environment:
+      POSTGRES_DB: treinodocker
+      POSTGRES_USER: psotgress
+      POSTGRES_PASSWORD: postgress
+    ports:
+      - "5431:5432"
+    restart: always
